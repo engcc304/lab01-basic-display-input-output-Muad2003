@@ -11,8 +11,7 @@ int main() {
     
     scanf( "%s", CustomerName ) ;
     
-    while( strcmp( CustomerName, "QUIT" )!=0 ) ;
-    i = 0 ;
+    while( strcmp( CustomerName, "QUIT" )!=0 ) ; 
     printf( "Enter name, quantity, and price for item %d [END 0 0] : ", i+1 ) ;
     scanf( "%s %d %f", Name[i],  &Quantity[i], UnitPrice[i] ) ;
     while( strcmp( Name[i],"END" ) != 0){
